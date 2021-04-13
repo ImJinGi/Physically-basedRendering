@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGlWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderLoad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGlWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f0c6b8f3-ddcf-42ae-af5c-42cf2e9ebd8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6e0fc475-3121-4b3b-9afc-f40182f3020d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vertex Shader">
+      <UniqueIdentifier>{a14c8ff6-3845-4893-a6db-c8476e39a60b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fragment Shader">
+      <UniqueIdentifier>{e1bf91d8-2780-4eb7-bab6-e5f9fa22d4c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Lighting.frag">
+      <Filter>Fragment Shader</Filter>
+    </None>
+    <None Include="Shaders\Lighting.vert">
+      <Filter>Vertex Shader</Filter>
+    </None>
+    <None Include="Shaders\back.vert">
+      <Filter>Vertex Shader</Filter>
+    </None>
+    <None Include="Shaders\equi.vert">
+      <Filter>Vertex Shader</Filter>
+    </None>
+    <None Include="Shaders\back.frag">
+      <Filter>Fragment Shader</Filter>
+    </None>
+    <None Include="Shaders\equi.frag">
+      <Filter>Fragment Shader</Filter>
+    </None>
+    <None Include="irradiance.vert">
+      <Filter>Vertex Shader</Filter>
+    </None>
+    <None Include="irradiance.frag">
+      <Filter>Fragment Shader</Filter>
+    </None>
+    <None Include="prefilter.vert">
+      <Filter>Vertex Shader</Filter>
+    </None>
+    <None Include="brdf.frag">
+      <Filter>Fragment Shader</Filter>
+    </None>
+    <None Include="brdf.vert">
+      <Filter>Vertex Shader</Filter>
+    </None>
+    <None Include="prefilter.frag">
+      <Filter>Fragment Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
